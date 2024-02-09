@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reenie+Beanie&display=swap');
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: rgb(251, 0, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 1rem auto;
+    width: fit-content;
+    font-size: 15rem;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0 3rem;
+    transition: 0.3s;
+    border-bottom: 3px solid rgb(251, 0, 255);
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: rgb(251, 0, 255);
+}
+
+.navbar {
+    font-size: 3rem;
+    /* background-color: green; */
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
