@@ -68,6 +68,12 @@ h3 {
     font-size: 3rem;
 }
 
+h4 {
+    margin: 1rem auto;
+    width: fit-content;
+    font-size: 1rem;
+}
+
 p {
     margin: 1rem auto;
     max-width: 75ch;
