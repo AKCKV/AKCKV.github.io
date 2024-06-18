@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reenie+Beanie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.welcome {
+    width: fit-content;
+    margin: 0 auto;
+    transform: translateY(calc(50vh - 50%));
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 15rem;
+    font-family: 'Reenie Beanie', cursive;
+    color: rgb(251, 0, 255);
+}
+
+.welcome .navbar {
+    display: flex;
+    column-gap: 50px;
+}
+
+.welcome a {
+    font-size: 2rem;
+    flex-basis: 100%;
+    border-bottom: 3px solid rgb(251, 0, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.welcome a:hover {
+    background-color: rgb(251, 0, 255);
+    color: black;
+}
+
+.welcome p {
+    margin-top: 100px;
+}
+
+.window {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: green;
+    /* background-color: rgb(242, 159, 243); */
+}
+
+.window h1 {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 4rem;
+    color: rgb(251, 0, 255);
+}
+
+.window .navbar {
+    color: black;z-index: 2;
+    position: sticky;
+    top: 0;
+    display: flex;
+    column-gap: 10%;
+    background-color: rgb(251, 0, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3px;
+}
+
+.window .navbar a {
+    flex-basis: 100%;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.window .navbar a:hover {
+    color: white;
+    background-color: black;
+}

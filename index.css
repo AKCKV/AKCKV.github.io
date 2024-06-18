@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reenie+Beanie&display=swap');
 
+@keyframes fade {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
+
 body {
     height: 100%;
     overflow-x: hidden;
@@ -14,6 +25,7 @@ h1 {
     width: fit-content;
     font-size: 15rem;
     font-family: 'Reenie Beanie', cursive;
+    animation: fade ease 2s;
 }
 
 a {
@@ -35,4 +47,14 @@ a:hover {
     justify-content: space-evenly;
     display: flex;
     align-items: center;
+}
+
+p {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+    bottom: 0vh;
 }

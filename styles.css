@@ -58,7 +58,8 @@ a:hover {
 
 img {
     position: relative;
-    margin: auto;
+    margin: 1rem auto;
+    display: block;
 }
 
 h3 {
@@ -92,4 +93,19 @@ p {
 #o501:hover {
     background-color: black;
     color: white;
+}
+
+#video503 {
+    width: 100%;
+    height: auto;
+}
+
+/* 504 */
+.img504 {
+    width: 30%;
+    height: auto;
+}
+
+.subheading504 {
+    margin-top: 5rem;
 }
